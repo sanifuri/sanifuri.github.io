@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <style>
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 15px;
+            width: 95%;
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        .shortcut {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            transition: transform 0.3s, background 0.3s;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+
+        .shortcut:hover {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .shortcut a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 12px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Accesos directos -->
+        <div class="shortcut"><a href="https://www.youtube.com" >YouTube</a></div>
+        <div class="shortcut"><a href="https://github.com/sanifuri">/sanifuri</a></div>
+        <div class="shortcut"><a href="https://github.com/sadeknifuri">/sadeknifuri</a></div>
+        <div class="shortcut"><a href="https://dash.cloudflare.com/628ce2f426afddda4301111d2c3501d4/workers-and-pages" >cloudflare</a></div>
+        <div class="shortcut"><a href="https://mail.proton.me/u/29/inbox">ProtonMail</a></div>
+        <div class="shortcut"><a href="https://mail.google.com/mail/u/0/#inbox" >Gmail</a></div>
+        <div class="shortcut"><a href="https://experienciavivo.duoc.cl/alumnos" >vivoDUOC</a></div>
+
+        <div class="shortcut"><a href="https://dashboard.mailerlite.com/dashboard">mailerlite</a></div>
+        <div class="shortcut"><a href="https://app.beehiiv.com/">beehiiv</a></div>
+        <div class="shortcut"><a href="https://supabase.com/dashboard/projects">supabase</a></div>
+        <div class="shortcut"><a href="https://fly.io/app/sign-in?return_to=%2Fdashboard">fly.io</a></div>
+        <div class="shortcut"><a href="https://gemini.google.com/u/0/app">gemini</a></div>
+        <div class="shortcut"><a href="https://idx.google.com/">firebase studio</a></div>
+        <div class="shortcut"><a href="https://www.twitch.tv">Twitch</a></div>
+
+        <div class="shortcut"><a href="https://www.pinterest.com">Pinterest</a></div>
+        <div class="shortcut"><a href="https://www.microsoft.com">Microsoft</a></div>
+        <div class="shortcut"><a href="https://www.adobe.com">Adobe</a></div>
+        <div class="shortcut"><a href="https://www.apple.com/music">Apple Music</a></div>
+        <div class="shortcut"><a href="https://www.tesla.com">Tesla</a></div>
+        <div class="shortcut"><a href="https://www.paypal.com">PayPal</a></div>
+        <div class="shortcut"><a href="https://www.ebay.com">eBay</a></div>
+
+        <div class="shortcut"><a href="https://www.dropbox.com">Dropbox</a></div>
+        <div class="shortcut"><a href="https://www.slack.com">Slack</a></div>
+        <div class="shortcut"><a href="https://www.airbnb.com">Airbnb</a></div>
+        <div class="shortcut"><a href="https://www.nike.com">Nike</a></div>
+        <div class="shortcut"><a href="https://www.cnn.com">CNN</a></div>
+        <div class="shortcut"><a href="https://www.bbc.com">BBC</a></div>
+        <div class="shortcut"><a href="https://www.medium.com">Medium</a></div>
+
+        <div class="shortcut"><a href="https://www.quora.com">Quora</a></div>
+        <div class="shortcut"><a href="https://www.stackoverflow.com">Stack Overflow</a></div>
+        <div class="shortcut"><a href="https://www.udemy.com">Udemy</a></div>
+        <div class="shortcut"><a href="https://www.coursera.org">Coursera</a></div>
+        <div class="shortcut"><a href="https://www.edx.org">edX</a></div>
+        <div class="shortcut"><a href="https://www.github.io">GitHub Pages</a></div>
+        <div class="shortcut"><a href="https://www.trello.com">Trello</a></div>
+    </div>
+    <footer>
+        Página de inicio personalizada - Diseñada por ti.
+    </footer>
+</body>
+</html>
